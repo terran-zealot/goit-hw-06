@@ -1072,10 +1072,7 @@ border-radius: 0px 0px 4px 4px
     text-align: center;
     letter-spacing: 0.02em;
     padding-top: 72px;
-    margin-bottom: 16px
-    
-    
-
+    margin-bottom: 16px;
     color: #2E2F42;
 }
 
@@ -1141,10 +1138,28 @@ border-radius: 0px 0px 4px 4px
     color: rgba(46, 47, 66, 0.4);
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
-    padding-left: 8px 16px;
+    padding: 8px 16px;
     resize: none;
     height: 120px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.unhidden-check {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent
+}
+
+.modal-privacy-input:checked > .unhidden-check {
+    background-color: #404bbf; 
+    border: none;
+    fill: #F4F4FD;
 }
 
 .comment-input:focus {
@@ -1170,5 +1185,9 @@ border-radius: 0px 0px 4px 4px
     align-items: flex-start;
     gap: 8px;
     
+}
+
+.privacy-link {
+    color: #4d5ae5;
 }
 
