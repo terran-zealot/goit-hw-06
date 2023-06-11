@@ -368,18 +368,16 @@
                         </li>
                     </ul>
                 </div>
-                <div footer-input-container>
+                <div class="footer-input-container"> 
                     <p class="footer-social-text">Subscribe</p>
-                    <ul class="list">
-                        <li class="link">
+                    <form class="footer-form">
+                        <label>
                             <input type="email" name="footer-email" placeholder="E-mail" class="footer-email">
-                        </li>
-                        <li class="link">
                             <button type="submit" class="footer-subscribe-btn">Subscribe <svg class="footer-subscribe-logo" width="16" height="16">
                                 <use href="./images/icons.svg#icon-telegram-logo"></use>
                             </svg></button>
-                        </li>
-                    </ul>
+                        </label>
+                    </form>
                 </div>
         </div>
     </footer>
@@ -420,9 +418,9 @@
                     </div>
             </div>
             <label for="user-comment" class="input-label">Comment</label>
-                <textarea type="text" name="user-comment" id="user-comment" placeholder="Text input" class="comment-input"></textarea>
+                <textarea  name="user-comment" id="user-comment" placeholder="Text input" class="comment-input"></textarea>
            <div class="checkbox-container">
-                 <input type="checkbox" name="privacy-check">
+                 <input type="checkbox" name="privacy-check" id="privacy-check">
              <label for="privacy-check" class="input-label">I accept the terms and conditions of the <a href="#">Privacy Policy</a></label>
            </div>
                 <button type="submit" class="hero-btn modal-btn">Send</button>
