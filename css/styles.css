@@ -1154,6 +1154,7 @@ border-radius: 0px 0px 4px 4px
     align-items: center;
     justify-content: center;
     fill: transparent;
+    margin-right: 8px;  
     
 }
 
@@ -1165,15 +1166,14 @@ border-radius: 0px 0px 4px 4px
 
 }
 
-.modal-privacy-input:checked + .input-label .unhidden-check-icon {
+.modal-privacy-input:checked + .input-label span {
     background-color: #404bbf; 
     border: none;
     fill: #F4F4FD; 
 }
 
 .unhidden-check-icon {
-
-
+}
 .comment-input:focus {
     border-color: #4D5AE5;
 }
@@ -1187,13 +1187,12 @@ border-radius: 0px 0px 4px 4px
 }
 
 .modal-btn {
-    margin-top: 24px;
+    
 }
 
 .checkbox-container {
     display: flex;
     margin-bottom: 24px;
-    
     align-items: flex-start;
     gap: 8px;
     
