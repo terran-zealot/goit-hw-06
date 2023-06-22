@@ -53,7 +53,6 @@ a {
 .menu-item:focus {
     color: #404bbf ;
     display: block;
-    /* margin-bottom: -24px; */
     transition-duration: 250ms;
     position: relative;
 }
